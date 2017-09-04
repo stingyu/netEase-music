@@ -33,20 +33,20 @@ $(function() {
             $('.btn-pause').addClass('active')
             $('.ctr .btn-pause').siblings().removeClass('active')
 		}
-        $('.icon-play').on('touchstart',function() {
-            audio.play();
-            $('.halo,.cover').addClass('playing')
-            $('.btn-pause').addClass('active')
-            $('.ctr .btn-pause').siblings().removeClass('active')
+        // $('.icon-play').on('touchstart',function() {
+        //     audio.play();
+        //     $('.halo,.cover').addClass('playing')
+        //     $('.btn-pause').addClass('active')
+        //     $('.ctr .btn-pause').siblings().removeClass('active')
             
             
-        })
-         $('.icon-pause').on('touchstart',function() {
-            audio.pause();
-            $('.halo,.cover').removeClass('playing')
-            $('.btn-play').addClass('active')
-            $('.ctr .btn-play').siblings().removeClass('active')
-        })
+        // })
+        //  $('.icon-pause').on('touchstart',function() {
+        //     audio.pause();
+        //     $('.halo,.cover').removeClass('playing')
+        //     $('.btn-play').addClass('active')
+        //     $('.ctr .btn-play').siblings().removeClass('active')
+        // })
 
         setInterval( () => {
             
