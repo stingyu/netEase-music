@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>首页</title>
+</head>
+<body>
+    <div class="layout">
+    <header>
+        <div class="top-bar">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-wangyiyunyinle"></use>
+            </svg>
+            <span>网易云音乐</span>
+        </div>
+    </header>
+    <nav class="tabList" >
+        <ul class="navigator">
+            <li class="active">
+                <span>推荐音乐</span>
+            </li>
+            <li>
+                <span>热歌榜</span>
+            </li>
+            <li>
+                <span>搜索</span>
+            </li>
+        </ul>
+    </nav>
+    <ul class ="tabContent">
+        <li class="active">
+            <section class="playlists">
+                <h2 class="title">推荐歌单</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                                <img src="http://p1.music.126.net/fmzly7H5vgnWfQKhYbf_Mg==/18580646999809695.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" alt="">
+                                <p>暑假补作业BGM</p>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <img src="http://p1.music.126.net/4omhJ22AjjclwT6Ak8VDzA==/109951162995984376.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" alt="">
+                                <p>女声 | 俏皮慵懒拯救你的不开心</p>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <img src="http://p1.music.126.net/mG-G69qOBU7s2eMv4HYvEg==/109951162976780038.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" alt="">
+                                <p>2017上半年 · 电音鉴赏指南 Top100</p>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <img src="http://p1.music.126.net/C9rX0hqR5hcvCTPZZ62k_A==/18792852743962455.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" alt="">
+                                <p>中国流行音乐42年发展史（头条）</p>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <img src="http://p1.music.126.net/2MsstS-M9w5-li0aRy3sUQ==/1380986606815861.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" alt="">
+                                <p>【旋律控】超级好听的英文歌</p>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <img src="http://p1.music.126.net/Y3rXiAWKw75VUjvMBQsxUA==/1424967077460786.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" alt="">
+                                <p>前奏直接秒杀的纯音乐</p>
+                            </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="latestMusic">
+                <h2 class="title">最新音乐</h2>
+                <ul id="songs-list">
+
+                </ul>
+                <p class="loading">
+                    <img src="../imgs/loading.gif" alt="">
+                </p>
+            </section>
+            <footer>
+                <div class="art">
+                    <div class="logo">
+                        <svg aria-hidden="true">
+                            <use xlink:href="#icon-logo"></use>
+                        </svg>
+                        <h1>网易云音乐</h1>
+                    </div>
+                    <a href="">打开APP，发现更多好音乐 ></a>
+                    <p class="copyright">网易公司版权所有©1997-2017 杭州乐读科技有限公司运营</p>
+                </div>
+            </footer>
+        </li>
+        <li>
+            <section class="hotop">
+                <p><i>&nbsp;&nbsp;云音乐</i></p>
+                <h1><i>热歌榜</i></h1>
+                <p class="update-time"></p>
+            </section>
+            <section class="hotLists">
+                <ul id="hotSongs">
+
+                </ul>
+                <p class="loading">
+                    <img src="../imgs/loading.gif" alt="">
+                </p>
+            </section>
+        </li>
+        <li>
+            <div class="search">
+                <svg class="icon-search" aria-hidden="true">
+                    <use xlink:href="#icon-search"></use>
+                </svg>
+                <input type="search" placeholder="搜索歌曲、歌手、专辑">
+            </div>
+            <div id="output">
+                
+            </div>
+            
+        </li>
+    </ul>
+    
+</div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//at.alicdn.com/t/font_389771_peae82msbr3eg66r.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
