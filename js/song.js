@@ -27,12 +27,12 @@ $(function() {
         let audio = document.createElement('audio');
         audio.src = url;
 
-        // audio.oncanplay = function(){
-		// 	audio.play()
-		// 	$('.cover,.halo').addClass('playing')
-        //     $('.btn-pause').addClass('active')
-        //     $('.ctr .btn-pause').siblings().removeClass('active')
-		// }
+        audio.oncanplay = function(){
+			audio.play()
+			$('.cover,.halo').addClass('playing')
+            $('.btn-pause').addClass('active')
+            $('.ctr .btn-pause').siblings().removeClass('active')
+		}
         $('.icon-play').on('touchstart',function() {
             audio.play();
             $('.halo,.cover').addClass('playing')
