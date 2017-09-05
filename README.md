@@ -8,8 +8,8 @@ audio的canplay事件
 
 - 360浏览器的audio.seekable为false;
 - uc浏览器，魅族自带浏览器，微信的audio.buffered.length居然为0；
-在iOS下，有以下问题：
+### 在iOS下，有以下问题：
 
-### canplay事件触发后，微信的audio.seekable为 false；
+- canplay事件触发后，微信的audio.seekable为 false；
 - safari在load了之后，canplay事件不触发，点击play后才触发 （9.1版本是正常的）；
 
