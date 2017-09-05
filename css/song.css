@@ -12,23 +12,6 @@
     50%  { transform: rotate(180deg)}
     100% { transform: rotate(360deg)}
 }
-
-/*.icon {
-    width: 6em; 
-    height: 2em;
-    vertical-align: -0.15em;
-    fill: #fff;
-    overflow: hidden;
-    position:relative;
-    z-index:1;
-}
-.icon2 {
-    width:11vw;
-    height: 15vw;
-    fill: #fff;
-    position:relative;
-    z-index:1;
-}*/
 .layout {
     display:flex;
     flex-direction: column;
@@ -107,9 +90,6 @@
     line-height: 1.5;  
 }
 .songs-description .lyric {
-   /*position:relative;
-   top:0;
-   left:0;*/
    transition: .3s;  
 }
 .songs-description p {
@@ -141,7 +121,6 @@
     height: 28vw; 
     
 }
-
 .icon-play {
     height: 24vw;
     width: 24vw;
@@ -150,44 +129,3 @@
 .btn-control > .active {
     display: block;
 }
-
-/*.control>.menu2>.ctr {
-    position: relative;
-    left:0;
-    top:0;
-    width: 30vw;
-    height: 15vw;
-    z-index:1;
-}
-.icon-ctr {
-    position: absolute;
-    top: 50%;
-    margin-top: -7.5vw;
-    left: 50%;
-    margin-left: -10vw;
-}
-.control, .menu1,.menu2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6vw;
-    flex-wrap: wrap;
-}
-.menu2 {
-    margin-bottom: 3vw; 
-    
-}
-button {
-    border-style:none;
-    background:none;
-}
-.control .active {
-    display: block;
-}
-.ctr>.btn-play,.btn-pause {
-    display:none;
-}
-.ctr .active {
-    display:block;
-}*/
-
