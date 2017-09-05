@@ -30,23 +30,26 @@ $(function() {
         audio.oncanplay = function(){
 			audio.play()
 			$('.cover,.halo').addClass('playing')
-            $('.btn-pause').addClass('active')
-            $('.ctr .btn-pause').siblings().removeClass('active')
+            // $('.btn-pause').addClass('active')
+            // $('.btn-pause').siblings().removeClass('active')
 		}
         $('.btn-play').on('touchstart',function() {
             audio.play();
             $('.halo,.cover').addClass('playing')
+            $('.btn-play').removeClass('active')
             $('.btn-pause').addClass('active')
-            $('.ctr .btn-pause').siblings().removeClass('active')
+            
             
             
         })
-        //  $('.icon-pause').on('touchstart',function() {
-        //     audio.pause();
-        //     $('.halo,.cover').removeClass('playing')
-        //     $('.btn-play').addClass('active')
-        //     $('.ctr .btn-play').siblings().removeClass('active')
-        // })
+         $('.btn-pause').on('touchstart',function() {
+            audio.pause();
+            $('.halo,.cover').removeClass('playing')
+            $('.btn-pause').removeClass('active')
+            console.log($('.btn-pause').siblings())
+            $('.btn-pause').siblings().addClass('active')
+            
+        })
 
         setInterval( () => {
             

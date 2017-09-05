@@ -13,7 +13,7 @@
     100% { transform: rotate(360deg)}
 }
 
-.icon {
+/*.icon {
     width: 6em; 
     height: 2em;
     vertical-align: -0.15em;
@@ -28,14 +28,7 @@
     fill: #fff;
     position:relative;
     z-index:1;
-}
-
-.icon-pause,.icon-play {
-    height: 3.3em;
-    width: 5em;
-    fill: #fff;
-}
-
+}*/
 .layout {
     display:flex;
     flex-direction: column;
@@ -127,7 +120,38 @@
     color:#fff;
 
 }
-.control>.menu2>.ctr {
+.btn-pause,.btn-play {
+    fill: #fff;
+    position: absolute;
+    margin-left: -13vw;
+    z-index:2;
+}
+.btn-pause {
+    left: 50%;
+    top: 23%; 
+    display: none;    
+}
+.btn-play {
+    left: 52%;
+    top: 24%;
+    display:none; 
+}
+.icon-pause {
+    width: 28vw;
+    height: 28vw; 
+    
+}
+
+.icon-play {
+    height: 24vw;
+    width: 24vw;
+   
+}
+.btn-control > .active {
+    display: block;
+}
+
+/*.control>.menu2>.ctr {
     position: relative;
     left:0;
     top:0;
@@ -165,5 +189,5 @@ button {
 }
 .ctr .active {
     display:block;
-}
+}*/
 
